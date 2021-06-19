@@ -1,0 +1,31 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+canvas {
+    animation-name: changeColour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: black dashed 1.2px;
+}
+
+@keyframes changeColour {
+    from {
+        box-shadow: 2px 5px 40px coral;
+    }
+
+    to {
+        box-shadow: 2px 5px 40px blue;
+    }
+}
+
+h1 {
+    text-shadow: 2px 3px chartreuse;
+    font-size: 50px;
+}
+
+button {
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right, rgb(238, 25, 238), yellow);
+    border-radius: 30px;
+}
